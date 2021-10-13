@@ -209,7 +209,6 @@ window.loginFailure = function() {};
 Games.playerGuest = function() {
     UI.hide('#playbutton', true);
     UI.show('#loginbutton', true);
-    UI.show('#leaderboardbutton', true);
 };
 
 Games.playerAuth = function() {
