@@ -1717,13 +1717,10 @@ UI.reconnection = function() {
     $("#score-score").html("&nbsp;"),
     $("#score-upgrades").html("&nbsp;"),
     $("#score-rank").html("-"),
-    $("#roomname").html("&nbsp;"),
     $("#open-menu").html("Switching Game...")
 };
 
 UI.loggedIn = function(e) {
-    $("#roomname").html(game.roomName),
-    $("#scoreheader").html(game.roomName + "&nbsp;&nbsp;"),
     $("#open-menu").html('<span class="arrowdown"></span>' + game.roomNameShort + '&nbsp;&nbsp;<span class="region">&bull;&nbsp;&nbsp;' + game.regionName + "</span>"),
     UI.visibilityHUD(true),
     UI.visibilityMinimap(true),

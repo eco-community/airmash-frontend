@@ -34,6 +34,8 @@ module.exports = {
     new CopyPlugin([
       { from: './src/assets', to: 'assets' },
       { from: './src/html/leaderboard.html', to: 'leaderboard.html' },
+      { from: './src/css/leaderboard.css', to: 'css/leaderboard.css' },
+      { from: './src/img/leaderboard.jpg', to: 'img/leaderboard.jpg' },
       { from: './src/robots.txt', to: 'robots.txt' },
     ]),
     new HtmlWebpackPlugin({
